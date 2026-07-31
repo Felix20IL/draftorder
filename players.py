@@ -1,5 +1,6 @@
 #generate players for the draft ordering
 
+#definesattributes held
 class Player():
     def __init__(self, name):
         self.finished = 0
@@ -8,7 +9,7 @@ class Player():
         self.togo = 100
         self.name = name
 
-
+#take a list of players and reorders them based on their finish position and distance to go if not finished. 
 def reorder_players(players):
     finished_list = []
     unfinished_list = []

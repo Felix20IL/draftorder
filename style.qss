@@ -1,0 +1,30 @@
+
+
+
+QMainWindow {
+    background-color: rgb(2, 28, 30);
+}
+
+#centralWidget {
+    background-color: rgb(2, 28, 30);
+}
+
+#title {
+    font-size: 20px;
+}
+
+QLabel {
+    background-color: rgb(2, 28, 30);
+    font-size: 20px;
+    color: rgb(19, 213, 226);
+}
+
+#colheader {
+    background-color: rgb(19, 213, 226);
+    font-size: 20px;
+    color: rgb(2, 28, 30);
+    font-weight: bold;
+}
+
+
+
